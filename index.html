@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch api</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="nv navbar-dark bg-light">
+        <!-- Navbar content -->
+        <h2>Chuck Norries</h2>
+      </nav>
+
+<div class="jumbotron">
+    
+    <button type="button" name="animal" class="btn btn-outline-primary" onclick="getData() ,animal()">Animal</button>
+    <button type="button" name="Career" class="btn btn-outline-primary" onclick="getData(),career()">Career</button>
+    <button type="button" name="Celebrity" class="btn btn-outline-primary" onclick="getData(),celebrity()">Celebrity</button>
+    <button type="button" name="Dev" class="btn btn-outline-primary" onclick="getData(),dev()">Dev</button>
+    <button type="button" name="Explicit" class="btn btn-outline-primary" onclick="getData(),explicit()">Explicit</button>
+    <button type="button" name="Fashion" class="btn btn-outline-primary" onclick="getData(),fashion()">Fashion</button>
+    <button type="button" name="Food" class="btn btn-outline-primary" onclick="getData(),food()">Food</button>
+    <button type="button" name="History" class="btn btn-outline-primary" onclick="getData(),history1()">History</button>
+    <button type="button" name="Money" class="btn btn-outline-primary" onclick="getData(),money()">Money</button>
+    <button type="button" name="Movie" class="btn btn-outline-primary" onclick="getData(),movie()">Movie</button>
+    <button type="button" name="Music" class="btn btn-outline-primary" onclick="getData(),music()">Music</button>
+    <button type="button" name="Political" class="btn btn-outline-primary" onclick="getData(),political()">Political</button>
+    <button type="button" name="Religion" class="btn btn-outline-primary" onclick="getData(),religion()">Religion</button>
+    <button type="button" name="Science" class="btn btn-outline-primary" onclick="getData(), science()">Science</button>
+    <button type="button" name="Sport" class="btn btn-outline-primary" onclick="getData(),sport()">Sport</button>
+    <button type="button" name="Trvel" class="btn btn-outline-primary" onclick="getData(),travel()">Travel</button>
+  </div>
+
+  <div> <h4 style="text-align : center ">Selected Category : <span id = "catagory"></span> </h4></div>
+  <div id="for-text" style=" height : 150px; background-color : rgb(53, 138, 235)">
+     
+      <p id="plain-text" style="color: white; text-align: center;padding-top: 60px;">" "</p>
+
+  </div>
+
+  <button style="border: none; color: rgb(53, 138, 235); margin-left: 50%; margin-top: 10px;background-color: white;" onclick="getData()"> Next Joke</button>
+
+  <nav class="navbar navbar-dark bg-dark">
+   
+  </nav>
+
+
+
+  
+
+   
+
+    <script src="/index.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+</body>
+</html>
